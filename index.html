@@ -1,999 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<title>Bafenyi Trust</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="images/Cognitech_Logo_icon.png" type="image/x-icon" />
-<title>Software Engineering, Software Development and Systems Integration Partner - CogniTech</title>
-
-<meta name="Description" content="Cognitech is a leading Software Engineering, Software Development and Systems Integration provider company USA, 15+ years’ experience in building mobile, cloud & web solutions." />
-<meta name="Keywords" content="Software Development Company SA, Johannesburg, Congnitech, cognitech solutions, cognitech.co.za, Gauteng, Data Engineering, Power BI, SQL, Cognitech, Custom Software Development, Web Development Company South Africa, IT Business Solutions, Application Integration Solutions, Business Process Management Solutions, Business Intelligence Solutions, Cloud Computing Solutions, Custom CRM Solutions, Custom CMS Solutions, E-Commerce Solutions, EHR Software Solutions, Enterprise Content Management Solutions, Legacy Migration Solutions, LMS Solutions, Medical Software Solutions, Mobile App Solutions, .NET Development Solutions, PHP Web Development Solutions, Retail Software Solutions, SharePoint Solutions, Systems Integration Solutions" />
-
-
-<meta property="og:site_name" content="Cognitech Solutions" />
-<meta property="og:title" content="Software Engineering, Data Analytics, Software Development and Systems Integration Partner - Cognitech" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://cognitech.co.za" />
-
-<!-- END Open Graph Protocol Meta -->
-<link rel="canonical" href="https://www.cognitech.com/" />
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-hsS2cAS/fd9zFhLaOrnTOBSfpiEm5O5/HjRn/uBOF5Y6uZ7rVtc5wJ4Sf+p3b3GGp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-<style>
-    .banner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-}
-
-.banner-image {
-    width: 100%;
-    height: auto;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), transparent);
-}
-
-.banner-text {
-    position: absolute;
-    text-align: center;
-    top: 20%;
-    margin-left: 2%;
-    margin-right: 5%;
-    font-family: sans-serif;
-    font-size: small;
-    
-    color: #fff;
-    z-index: 2; /* Ensure the text is on top of the image */
-}
-
-.banner-text p {
-    font-family: sans-serif;
-    font-size: medium;
-    text-align: left;
-    margin-right: 0%;
-}
-
-</style>
-
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bafenyi trust" />
+<meta name="author" content="dotdevtech" />
+<link rel="icon" href="./images/ico.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<link rel="stylesheet" href="css/tiny-slider.css">
+<link rel="stylesheet" href="css/glightbox.min.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body >
+<body>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "1448809042061720");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
 
-    
-<div id="wrapper">
-  <!--- Header -->
-  <header class="navbar-fixed-top" style="background-color: white; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px;">
-    <img id="logo" style="height : 40px;" src="./images/Logo (3).png" alt="Logo"> 
-    <button class="contact-button" style="border-radius: 10px; 
-    padding: 8px 20px; 
-    background-color: #6abbe8; 
-    color: #fff; 
-    font-weight: 550;
-    border: none; 
-    cursor: pointer;"> 
-    Contact &nbsp; <i class="fa fa-headset"></i>
+<a href="https://wa.link/f5xqkw"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon" style="color: #fff;"></i></a>
+
+<nav class="navbar navbar-expand-lg  ftco-navbar-light">
+<div class="container-xl">
+<a class="navbar-brand align-items-center" href="index.html">
+
+Bafenyi<small>Trust</small>
+<span>Helping people win</span>
+
+
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="fa fa-bars"></span> Menu
 </button>
-    
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">What we do</a></li>
+<li class="nav-item"><a class="nav-link" href="#getinvolved">Get Involved</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="hero-wrap rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0" style="background-image: url('images/gogo.jpg');">
+<div class="overlay"></div>
+<div class="container">
+<div class="row no-gutters slider-text align-items-center">
+<div class="col-lg-6">
+<img src="./images/download-Photoroom.png-Photoroom.png" >
+
+<h1 class="mb-4" style="margin-bottom: 0px; text-align: left;">Bafenyi </h1>
+<span class="subheading" style="text-align: left;">is the Setswana word for "winners" and we want to see people win, regardless of their circumstances.</span>
+<br>
+<br>
+<p>
+    <a href="#getinvolved" class="btn btn-primary p-4 py-3">Join The Journey </span></a> 
+    <a href="./documents/Annual Report 2022 - 2023.pdf" class="btn btn-secondary py-3 px-4" style="position: relative; z-index: 1000;" download="Annual Report 2022 - 2023.pdf">Annual Reports</a>
    
-</header>
+</p>
+</div>
+</div>
+</div>
+</section>
 
 
+<section id="about">
+  <div class="container-xl">
+    <div class="row g-lg-5">
+        <div class="col-md-5 order-lg-last d-flex align-items-stretch" >
+            <div class="fund-wrap" style="background-color: #1467b7;">
+                <div class="fund-raised d-flex align-items-center" style="background-color: #dd2219;">
 
-
-  <!--- /Banner -->
-  <!--- Technology Links -->
-  <div id="microsites"></div>
-    <br>
-    <br>
-
-    
-  <div class="clearfix"> </div>
-
- 
-
-  <!--- Tab Section -->
- 
-     <div class="pbp15 client-reviews-part solution-main-area">
-        <div class="banner">
-            <div class="banner-image">
-                <img style="
-                    width: 2500px;
-                    height: auto;
-                    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-                    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), transparent); z-index: -1;" src="./images/home-banner/artificial-intelligence-2-2023.webp" alt="Banner Image">
-            </div>
-            <div class="banner-text">
-                <p>
                     
-                    Whether it's developing advanced business models, implementing efficient Data Warehouse solutions, or optimizing our clients' operational processes, CogniTech is dedicated to delivering top-notch analytical solutions. We believe in a partnership-oriented approach, working closely with our clients to understand their unique needs and provide tailored solutions that address their specific business challenges.
-                     
-                    <div class="row services-btn" style="border-radius: 10px;">
-                        <div class="col-sm-12 text-right backendlink mbp30">
-                            <a href="https://wa.me/27610279330" style="font-weight:bold;"> Let's chat &nbsp; <i class="fa fa-angle-right fa-lg"></i></a>
-                             
-                              
-                        </div>
+                    <div class="icon">
+                        <span class="flaticon-heart"></span>
                     </div>
-       
-                </p>
-            </div>
-        </div>
-        
-        
+                    <div class="text section-counter-2">
+                        <h4 class="countup" style="color: #fff;">Get Involved</h4>
+                        <span style="color: #fff;">&nbsp;make a donation via payfast</span>
+                    </div>
+                </div>
 
-    
-      <div class="container">
-          <div class="clearfix mbp15 ptp15"><h2 class="heading01 clearfix mbp10">Solutions</h2></div>
-         
-          
-		  <div class="solution-main-listings">
-			  <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_mobile_app_dev.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Mobile App <br>
-                                Development</p>
-                        </div>
-                    </div>
-		  		 <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_business_process_auto.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Business Process
-                                Automation</p>
-                        </div>
-                    </div>
-			    <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_business_intelligence.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Business <br>
-                                Intelligence</p>
-                        </div>
-                    </div>
-			   <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_crm.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">CRM <br>
-                                Systems</p>
-                        </div>
-                    </div>
-			    <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_ecommerce.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">eCommerce <br>
-                                Development</p>
-                        </div>
-                    </div>
-			  <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_enterprise_content.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Enterprise Content <br>
-                                Management</p>
-                        </div>
-                    </div>
-			   <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_enterprise_portal.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Enterprise Portals <br>
-                                and Intranet</p>
-                        </div>
-                    </div>
-			   <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_learning_management.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Learning Management <br>
-                                System</p>
-                        </div>
-                    </div>
-			   
-			   <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img src="images/solutions/ic_enterprise_system_integration.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Enterprise Systems <br>
-                                Integration</p>
-                        </div>
-                    </div>
 
-                    <div class="solution-item text-center">
-                        <div class="solution-icon">
-                            <img style="width: 40px;" src="images/solutions/ai.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="solution-title">
-                            <p class="text-center">Artificial<br>
-                                Intelligence</p>
-                        </div>
-                    </div>
-			 
-		  </div>
-           
-        </div>
-    </div>
-    
-     <div class="ptp15 pbp15" style="background: #f2f2f2;">
-             <div class="container">
-                 <div class="clearfix text-centers">
-                 <h2 class="heading01"> <span>Services </span></h2>
-                     <div class="clearfix service-text mtp15 text-center ptp20">Our software development services provide industry specific solutions that align people, processes and systems to scale your business.</div>
-                </div>
-				 <div class="services-main-listings clearfix text-centers icon-text mtp40">
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_application.png" class="img-fluid"
-                                alt="Application Development">
-                        </div>
-                        <div class="service-caption">
-                            <p>Application <br> Development</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_application_system_integration.png" class="img-fluid"
-                                alt="Application System Integration">
-                        </div>
-                        <div class="service-caption">
-                            <p>Application System <br> Integration</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_legacy_system_migration.png" class="img-fluid"
-                                alt="Legacy System Migration">
-                        </div>
-                        <div class="service-caption">
-                            <p>Legacy System <br> Migration</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_cloud_management_system.png" class="img-fluid"
-                                alt="Cloud Management & Support">
-                        </div>
-                        <div class="service-caption">
-                            <p>Cloud Management <br> & Support</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_power_apps.png" class="img-fluid"
-                                alt="Power Apps Development">
-                        </div>
-                        <div class="service-caption">
-                            <p>Power Apps <br> Development</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_dedicated_development_team.png" class="img-fluid"
-                                alt="Dedicated Development Team">
-                        </div>
-                        <div class="service-caption">
-                            <p>Dedicated <br> Development Team</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_technology_assessment.png" class="img-fluid"
-                                alt="Technology & Assessment">
-                        </div>
-                        <div class="service-caption">
-                            <p>Technology <br> Assessment</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_appsupport_maintanance.png" class="img-fluid"
-                                alt="Mobile App Support and Maitenance">
-                        </div>
-                        <div class="service-caption">
-                            <p>Mobile App Support & <br> Maintenance</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/power-bi.png" class="img-fluid"
-                                alt="Power BI">
-                        </div>
-                        <div class="service-caption">
-                            <p>Power BI</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="./images/services/ic_website_development.png" class="img-fluid"
-                                alt="Website Development">
-                        </div>
-                        <div class="service-caption">
-                            <p>Website <br> Development</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                 <div class="row services-btn">
-                <div class="col-sm-12 text-right backendlink mbp30">
-                    <a style="font-weight: bold;" href="https://wa.me/27610279330">Request a demo <i class="fa fa-angle-right fa-lg"></i></a>
-                     
-                      
-                </div>
-            </div>
-         </div>
-      </div>
-   
-    
-        <div class="client-reviews-part ptp15">
-             <div class="container">
-                 <div class="clearfix text-centers">
-                 <h2 class="heading01"> <span style="color: #000;">Technology Expertise </span></h2>
-                </div>
-                 <div class="clearfix text-centers icon-text mbp25">
-                     <div class="row">
-            <div class="col-sm-12" style="overflow: hidden;">
-             
-                <section class="tecr-logos teclistmain slider">
-                    <div><div class="tecbox"><img src="images/technology/33-Power-Automate.png" alt=""><span>Power Automate</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/38-Azure.png" alt=""><span>Azure</span></div></div>
+                <!-- PayFast Donation Form -->
+                <form action="https://www.payfast.co.za/eng/process" name="form_93ce85d525cfc2281bb9e64f60c309bd" onsubmit="return click_93ce85d525cfc2281bb9e64f60c309bd(this);" method="post" class="appointment">
                    
-                    <div><div class="tecbox"><img src="images/technology/19-MS-SQL-Server.png" alt=""><span>MS SQL Server</span></div></div>
                     
-                    <div><div class="tecbox"><img src="images/technology/35-Power-BI.png" alt=""><span>Power BI</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/1-asp-net.png" alt=""> <span>.NET</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/2-Python.png" alt=""><span>Python</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/36-aws.png" alt=""><span>AWS</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/4-Node.png" alt=""><span>Node</span></div></div>
-                    <div><div class="tecbox"><img style="width: 100px; height: 100px; border-radius: 50%;" src="images/technology/download (2).png" alt=""><span>Databricks</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/34-Power-Flow.png" alt=""><span>Power Flow</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/32-SharePoint-Online.png" alt=""><span>SharePoint</span></div></div>
-                  
-                    <div><div class="tecbox"><img src="images/technology/37-Google-Cloud.png" alt=""><span>Google Cloud</span></div></div>
-      				
-                    <div><div class="tecbox"><img src="images/technology/3-Java.png" alt=""><span>Java</span></div></div>
-                    <!--<div><div class="tecbox"><img src="images/technology/microsoft-r.png" alt=""><span>Microsoft Dynamics</span></div></div>-->
-                    
-                    <div><div class="tecbox"><img src="images/technology/6-php-r-n.png" alt=""><span>PHP</span></div></div>
-                    <div><div class="tecbox"><img  src="images/technology/7-ios.png" alt=""><span>iOS</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/8-android.png" alt=""><span>Android</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/9-Flutter.png" alt=""><span>Flutter</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/10-React-Native.png" alt=""><span>React Native</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/12-iONIC.png" alt=""><span>iONIC</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/13-React-JS.png" alt=""><span>React JS</span></div></div>
-                  
-                    <div><div class="tecbox"><img src="images/technology/16-HTML5.png" alt=""><span>HTML5</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/17-Vue.png" alt=""><span>Vue</span></div></div>
-                 
-    
-                    <div><div class="tecbox"><img src="images/technology/20-PostgreSQL.png" alt=""><span>Postgre SQL</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/21-MySQL.png" alt=""><span>MySQL</span></div></div>
-					<div><div class="tecbox"><img src="images/technology/22-DynamoDB.png" alt=""> <span>Dynamo DB</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/23-MongoDB.png" alt=""><span>MongoDB</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/24-Oracle.png" alt=""><span>Oracle</span></div></div>
-                    <!--<div><div class="tecbox"><img src="images/technology/microsoft-r.png" alt=""><span>Microsoft Dynamics</span></div></div>-->
-                    <div><div class="tecbox"><img src="images/technology/25-Firebase.png" alt=""><span>Firebase</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/26-wordpress.png" alt=""><span>WordPress</span></div></div>
-                    <div><div class="tecbox"><img src="images/technology/41-ibm.png" alt=""><span>IBM</span></div></div>
-	
-					
-   </section>
-</div>
-        
-          </div>
-                 </div>
-         </div>
-      </div>
-    
-   
-        
-        <section class="industries-we-serve">
-    <div class="container">
-        <div class="row">
-        	<div class="col-md-12">
-            	<h2 class="heading01 mtp0"><span>Industries We Serve</span></h2>
-				
-				 <div class="clearfix text-centers icon-text">
-                     <div class="row">
-            <div class="col-sm-12" style="overflow: hidden;">
-				<div class="services-main-listings IndustriesWeServe ">
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/logistics.png" class="img-fluid"
-                                alt="Logistics">
-                        </div>
-                        <div class="service-caption">
-                            <p>Logistics</p>
-                        </div>
+                    <div class="row">
+                        <input type="hidden" name="cmd" value="_paynow">
+                        <input type="hidden" name="receiver" value="15363244">
+                        <input type="hidden" name="item_name" value="Donate">
+                        <label class="donationDetails__text mb-30" style=" line-height: 1.2;
+                        color: #fff; font-family: 'Patrick Hand', cursive; font-size: 20px;
+                        ">Amount (ZAR)</label> &nbsp;&nbsp;
+                        <input type="text" class="form-control" style = "margin-bottom: 50px; color: white;   background-color: #fff;
+                        background-clip: padding-box;
+                        border: 1px solid white;"        value="100"  name="amount">
+                        
+                        <input type="hidden" name="item_description" value="">
+                        
+                        <table>
+                        <tr>
+                          <div class="col-md-12">
+                            <input type="submit" value="Donate Now" class="btn btn-primary py-3 px-4 rounded">
+                            </div>
+                        </tr>
+                        </table>
                     </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/education.png" class="img-fluid"
-                                alt="Education">
-                        </div>
-                        <div class="service-caption">
-                            <p>Education</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/retail.png" class="img-fluid"
-                                alt="Retail">
-                        </div>
-                        <div class="service-caption">
-                            <p>Retail</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/finance.png" class="img-fluid"
-                                alt="Finance">
-                        </div>
-                        <div class="service-caption">
-                            <p>Finance</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/wellness-fitness.png" class="img-fluid"
-                                alt="Wellness & Fitness">
-                        </div>
-                        <div class="service-caption">
-                            <p>Wellness & Fitness</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/oil-gas.png" class="img-fluid"
-                                alt="Oil & Gas">
-                        </div>
-                        <div class="service-caption">
-                            <p>Oil & Gas</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/transportation.png" class="img-fluid"
-                                alt="Transportation">
-                        </div>
-                        <div class="service-caption">
-                            <p>Transportation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/travel.png" class="img-fluid"
-                                alt="Travel">
-                        </div>
-                        <div class="service-caption">
-                            <p>Travel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/social-network.png" class="img-fluid"
-                                alt="Social Network">
-                        </div>
-                        <div class="service-caption">
-                            <p>Social Network</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/event.png" class="img-fluid"
-                                alt="Event">
-                        </div>
-                        <div class="service-caption">
-                            <p>Event</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-list-item">
-                    <div class="service-inner-area">
-                        <div class="service-img">
-                            <img src="images/industries-we-serve/productivity.png" class="img-fluid"
-                                alt="Productivity">
-                        </div>
-                        <div class="service-caption">
-                            <p>Productivity</p>
-                        </div>
-                    </div>
-                </div>
+                </form>
+                <!-- End PayFast Donation Form -->
+                <p style="margin-left: 25px; margin-right: 25px; color: #fff; font-family: 'Patrick Hand', cursive; font-size: 15px; font-weight: 200;">The Bafenyi Trust has been approved as a Public Benefit Organisation with Section 18A status by SARS and donations to the organisation will be tax deductible in the hands of the donors. Corporates can earn BEE-points by donating to the Bafenyi Trust as all our beneficiaries are 100% black South Africans.</p>
             </div>
-						 </div>
-					 </div>
-				</div>
-               
+        </div>
+        <div class="col-md-7 heading-section d-flex align-items-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div class="mt-0 about-wrap">
+              
+                <h2 class="mb-4" style="color: #fabb1f; margin-top: 0px;">Who we are</h2>
+                <p style="font-family: 'Patrick Hand'; font-size: large;">Bafenyi, meaning "winners" in Setswana, is a community-driven organization dedicated to uplifting individuals regardless of their circumstances. Rooted in the belief that every person deserves dignity, purpose, and love, we are committed to reaching out to adults and children residing in marginalized areas of our community. Our mission is to provide both physical sustenance and spiritual nourishment, thereby combating poverty and hopelessness.</p>
+                
+                <div class="row mt-5 g-md-3">
+                    <div class="col-md-6 col-lg-4 mb-2 mb-md-0 d-flex align-items-stretch">
+                        <a href="#" class="services-2">
+                            <div class="icon"><span class="flaticon-donation"></span></div>
+                            <div class="text">
+                                <h2>Start Donating</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2 mb-md-0 d-flex align-items-stretch">
+                        <a href="#" class="services-2 color-2">
+                            <div class="icon"><span class="flaticon-ecosystem"></span></div>
+                            <div class="text">
+                                <h2>Join Our Community</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2 mb-md-0 d-flex align-items-stretch">
+                        <a href="#" class="services-2 color-3">
+                            <div class="icon"><span class="flaticon-charity"></span></div>
+                            <div class="text">
+                                <h2>Be A Volunteer</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
-    <!--- /Industries section -->
-    
-     <!--- Development Process -->
+</div>
 
-   <section class="development-lifecycle">
+</section>
+
+
+
+
+<section id="projects" class="ftco-section-counter img"  style="background-image: url(images/bg_5.jpg);">
+  <div class="overlay"></div>
   <div class="container">
-  	<div class="row">
-        <div class="col-md-12">
-            <h2 class="heading01">Development Lifecycle</h2>             
-        </div>
-    </div>
+  <div class="row justify-content-center">
+  <div class="col-md-10 heading-section heading-section-white mb-5 text-center" data-aos="fade-up" data-aos-duration="1000">
   
-	  <div class="row">
-                <div class="devcycle-listings-area">
-                    <!-- item -->
-                    <div class="devcycle-list-item devcycle-first">
-                        <div class="devcycle-list-inner">
-                            <div class="devcycle-img">
-                                <img src="./images/development-lifecycle/ic-requirement.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="devcycle-title">
-                                <h2 class="title">
-                                    <span>Requirement</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="devcycle-list-item devcycle-second devcycle-list-rev">
-                        <div class="devcycle-list-inner">
-                            <div class="devcycle-img">
-                                <img src="./images/development-lifecycle/ic-planning.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="devcycle-title">
-                                <h2 class="title">
-                                    <span>Planning</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="devcycle-list-item devcycle-third">
-                        <div class="devcycle-list-inner">
-                            <div class="devcycle-img">
-                                <img src="./images/development-lifecycle/ic-prototyping.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="devcycle-title">
-                                <h2 class="title">
-                                    <span>Prototying</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="devcycle-list-item  devcycle-fourth devcycle-list-rev">
-                        <div class="devcycle-list-inner">
-                            <div class="devcycle-img">
-                                <img src="./images/development-lifecycle/ic-delvelopment.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="devcycle-title">
-                                <h2 class="title">
-                                    <span>Development</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="devcycle-list-item devcycle-fifth">
-                        <div class="devcycle-list-inner">
-                            <div class="devcycle-img">
-                                <img src="./images/development-lifecycle/ic-release.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="devcycle-title">
-                                <h2 class="title">
-                                    <span>Release</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-  </div>
-</section>
-    
-   
-  <div class="clearfix"> </div>
+  <h2 class="mb-4">What we do</h2>
+  <span class="subheading" style="font-size: x-large; color: #fabb1f;">ATISA 'MULTIPLY' ADULT PROGRAM</span>
+  <p data-aos="fade-up" data-aos-duration="1500" style="color: #fff; ">Our adult program operates three days a week with 6 different age groups, offering a space where individuals who may not attend traditional sunday church services can encounter the word of God. Through inspirational messages and acts of kindness, we strive to remind participants of their inherent worth and purpose. Additionally, our feeding scheme provides meals for approximately 300 adults weekly. Moreover, we assist with individual social cases, such as aiding those displaced by disasters and facilitating identification processes.</p>
+  
+  <span class="subheading" style="font-size: x-large; color: #fabb1f;">KIDS CLUB</span>
+  <p data-aos="fade-up" data-aos-duration="1500" style="color: #fff; ">Recognizing that not all children experience nurturing environments at home, our Kids' Club provides a safe haven where youngsters can experience love and encounter spirituality. Divided into three age groups, ranging from 4 years to Grade 8, our club sessions incorporate engaging activities such as Bible lessons, crafts, and games. Furthermore, our feeding scheme ensures that around 700 children receive nutritious meals each week. We also aim to extend our impact by offering training to ministries passionate about children's welfare, thereby multiplying our efforts to reach more vulnerable youth.</p>
+  
  
-	
-    <div class="clearfix"> </div>
-        
+  
 
-    <footer class="footer" style="background-color: black; color: white; align-content: center; text-align: center;">
-        <div class="container">
-           
+  
+  </div>
+  </div>
+ 
+  </div>
+  </section>
 
-            <p style="margin-top: 10px; text-align: center; font-family: sans-serif; font-size: small; font-weight: 500;">
-                <a href="https://wa.me/27610279330" style="color: white;"><i class="fab fa-whatsapp fa-lg"></i></a> &nbsp; 
-                <a href="mailto:info@cognitech.co.za" style="color: white;"><i class="fa fa-at fa-lg"></i></a>
-                <br>&copy; 2023 <a href="https://wa.me/27610279330" style="color: orange; text-decoration: none; font-weight: 600;">Cognitech Solutions</a> All Rights Reserved.
-            </p>
-            
-           
-           
-        
-        </div>
-    </footer>
+
+  <section class="ftco-section ftco-no-pt ftco-no-pb">
+    <div class="container-xl">
+    <div class="row g-lg-5">
+    <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+    <div class="img img-2 w-100" style="background-image: url(images/about.jpg);">
+    </div>
+    </div>
+    <div class="col-md-6 heading-section d-flex align-items-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+    <div class="mt-0 my-lg-5 py-5">
+  
+    <h2 class="mb-4" style="margin-top: 0px; color: #fabb1f;">Our Approach</h2>
     
-  <!--- /Footer -->
+    <p style="color: black;"> <span style="font-weight: 800; color: #dd2219;">Accountability:</span> We are committed to transparency and accountability in all our endeavors. Every donation received is handled with responsibility and honesty, ensuring that resources are utilized effectively to benefit those we serve.</p>
+    <p style="color: black;"> <span style="font-weight: 800; color: #1467b7;">Love and Compassion: </span> Central to our ethos is the practice of loving others unconditionally, following the example set by Jesus Christ. By extending kindness and compassion to those in need, we foster an environment of care and support.</p>
+    <p style="color: black;"> <span style="font-weight: 800; color: #72ad41;">Community Building: </span> Through initiatives like the construction of a community center in Promosa, we provide a space for networking, training, and collaboration among like-minded organizations. By joining hands with partners such as Feisty Females and Fire and Fragrance South Africa, we amplify our impact and create a stronger, more unified community.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+<section class="ftco-section testimony-section img" style="background-image: url(images/bg_4.jpg);">
+<div class="overlay"></div>
+<div class="container-xl">
+<div class="row justify-content-center pb-4">
+<div class="col-lg-7 text-center heading-section heading-section-white" data-aos="fade-up" data-aos-duration="1000">
+<span class="subheading" style="color: #fabb1f;">Testimonials</span>
+<h2 class="mb-5">What People Say</h2>
 </div>
-<div class="loading"> Your inquiry is submitting. Please wait for a while…<br />
-  <br />
-  <img src="images/bx-loader.gif" alt="Loading..." title="Loading..." /> </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/slick.js"></script>
+</div>
+<div class="row">
+<div class="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+<div class="carousel-testimony">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
+  
+<div class="item">
+  <div class="testimony-wrap">
+  <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+  <div class="text">
+  <p class="mb-4">I was blessed to come alongside the team at Bafenyi Trust during my Discipleship Training Outreach. Part of our ministry was partnering with the local communities that they support and this had a life changing impact on me. Each week we came alongside the communities in Promosa and Ikageng – loving on them and sharing the gospel of Jesus. During that time we saw change and transformation, miracle healings, God’s provision and I will be forever thankful for the hand-print left in my heart by these beautiful people! I am so thankful that my family has grown and a part of my heart will forever belong with you guys, my South Africa family</p>
+  <div class="d-flex align-items-center">
+  
+  <div class="ps-3">
+  <p class="name">Natalie Ketcher</p>
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+<div class="item">
+<div class="testimony-wrap">
+<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+<div class="text">
+<p class="mb-4">I was fortunate enough to work at Bafenyi for about a year and a half. It was like most part of life; not always nice or easy, but good! It was more than just good it was such a rich and life changing experience. What I loved most about Bafenyi was the connections and relationships that were formed – across a multitude of borders. There was a constant sharing of stories and doing life, whether it was in the office, multiple trips to the department of social services, waiting in line at SARS or at the hospital. It was more than just a regular job. It was working together for change in a community.</p>
+<div class="d-flex align-items-center">
 
-<!--- PPC BANNER -->
-<script type="text/javascript" src="js/banner.min.js"></script>
-<!--- PPC BANNER -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<div class="ps-3">
+<p class="name">Maxine Theunissen</p>
 
-<script type="text/javascript" src="js/common.min.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/tab.min.js"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="item">
+  <div class="testimony-wrap">
+  <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+  <div class="text">
+  <p class="mb-4">Part of this family is our sponsors – people from the community, who are willing to open their hearts and hands to contribute to the need at the pre-schools, whether this is blankets, food, learning material, money for training purposes etc. Together we can win and our country will prosper because our children are stimulated and happy. I am proud to be on “the other side” of the family now, being a sponsor. Never will I able to leave my Bafenyi family!</p>
+  <div class="d-flex align-items-center">
+  
+  <div class="ps-3">
+  <p class="name">Retha Serfontein</p>
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<section id="getinvolved" class="ftco-section">
+  
+    <div class="container-xl">
+      <h2 class="mb-4" style="color: #fabb1f; font-size: xxx-large; align-items: center; text-align: center;">How to Get Involved</h2>
+    <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 d-flex">
+    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
+    </a>
+    <div class="text text-center">
+    
+    <h3 class="heading mb-3"><a href="#">Volunteer</a></h3>
+    <p>Your hug, smile, and willingness to listen can make a significant impact. If you prefer contributing your time, we welcome your involvement in our projects. Simply reach out to us at <a href="mailto:admin@bafenyi.org.za" style="color: #fabb1f;">admin@bafenyi.org.za</a> and we'll be in touch to discuss how you can best support our initiatives.</p>
+    
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-4 d-flex">
+    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_5.jpg');">
+    </a>
+    <div class="text text-center">
+    
+    <h3 class="heading mb-3"><a href="#">Donate</a></h3>
+    <p>Your contributions, whether financial or in-kind, make a tangible difference. <br> For monetary donations, please refer to the bank details provided <a href="./documents/AccountDetails.png" download="BafenyiBankConfirmationLetter.png" style="color: #fabb1f;">here</a>
+        . Our doors are open from Monday to Friday, 8 am to 4 pm, for drop-off donations to benefit the community of Ikageng. </p>
+    
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-4 d-flex">
+    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <a href="blog-single.html" class="block-20 img" style="background-image: url('images/Harmony-Prayer-scaled.jpg');">
+    </a>
+    <div class="text text-center">
+    
+    <h3 class="heading mb-3"><a href="#">Pray</a></h3>
+    <p>We believe in the transformative power of prayer and the importance of partnering with God to bring about His will in our community. Your prayers go a long way, and your involvement makes a difference. Join us in making an impact through the power of prayer.</p>
+    
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    </div>
+    
+    </div>
+    </section>
+
+<footer id="contact" class="ftco-footer img">
+    <div class="overlay"></div>
+    <div class="container-xl">
+    <div class="row mb-5 pb-lg-4 justify-content-between">
+    <div class="col-md-6 col-lg">
+    <div class="ftco-footer-widget mb-4">
+    <h2 class="ftco-heading-2 logo d-flex">
+    <a class="navbar-brand align-items-center" href="index.html">
+        <img src="./images/baf2.png" alt="bafenyi" style="width: 60%;">
+    </a>
+    </h2>
+    <p style="color: #fff; font-family: 'Patrick Hand', cursive; font-size: 20px; line-height: 20px;">The Bafenyi Trust has been approved as a Public Benefit Organisation with Section 18A status by SARS.</p>
+    <ul class="ftco-footer-social mt-4">
+        <li><a href="https://www.facebook.com/bafenyitrust/"><span class="fab fa-facebook"></span></a></li>
+    <li><a href="tel:27780607398"><span class="fa fa-phone"></span></a></li>
+    <li><a href="https://maps.app.goo.gl/wDd3xosZz5tRNbNx5"><span class="fa fa-map-marker "></span></a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg">
+    <div class="ftco-footer-widget mb-4">
+    <h2 class="ftco-heading-2" style="font-family: 'Patrick Hand', cursive; font-size: x-large;">Registration Details</h2>
+
+    <div class="text">
+   
+        <h6 class="heading"><a href="#" style="color: #fabb1f; font-family: 'Patrick Hand', cursive; font-size: 20px;">PO Box 69 Potchefstroom,  2520<br>
+            7/2170 Extention 2, Promosa, <br>Potchefstroom 2531 <br>
+            NPO: 097-182 <br>
+            Trust no: 1059/10
+        </a></h6>
+        </div>
+
+ 
+    </div>
+    </div>
+    <div class="col-md-6 col-lg">
+    <div class="ftco-footer-widget mb-4">
+        <h2 class="ftco-heading-2" style="font-family: 'Patrick Hand', cursive; font-size: x-large;">Get in touch!</h2>
+    <div class="block-23 mb-3">
+    <ul>
+        <li style="margin-top: 0px; margin-bottom: 0px; font-family: 'Patrick Hand', cursive; font-size: 90px;"><a href="#"><span class="icon fa fa-map marker"></span><span class="text" style="font-size: 18px;">
+            7/2170 Extention 2, Promosa, Potchefstroom 2531</span></a></li>
+        <li><a href="#" style="margin-top: 0px; margin-bottom: 0px; font-family: 'Patrick Hand', cursive;"><span class="icon fa fa-phone"></span><span class="text" style="font-size: 18px;">
+            +27 78 060 7398</span></a></li>
+        <li><a href="#" style="margin-top: 0px; margin-bottom: 0px; font-family: 'Patrick Hand', cursive;"><span class="icon fa fa-paper-plane"></span><span class="text" style="font-size: 18px;">admin@bafenyi.org.za</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid px-0 py-5 bg-darken">
+    <div class="container-xl">
+    <div class="row">
+    <div class="col-md-12">
+        <p class="mb-0" style="font-size: 18px;font-family: 'Patrick Hand', cursive;">Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> | Powered by <a href="https://wa.me/27610279330"  style="color: #fabb1f;">Dot Dev Tech</a></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
 
 <script>
-    
-       
-    
-    $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
+    document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.querySelector('.popup');
+    const closeBtn = document.querySelector('.close-btn');
 
-$(window).resize(function() {
-       $('.tooltip').hide();
-});
+    // Show popup when the page is loaded
+    popup.style.display = 'block';
 
-    </script>
-     <script>
-         
-         
-         
-     $(document).ready(function(){
-         
- 
-  $('.regular').slick({
-    speed: 500,
-   dots: false,
-	infinite: true,
-	slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,  
-    centerMode: false,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        // centerMode: true,
-
-      }
-
-    }, {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        dots: false,
-        infinite: true,
-
-      }
-    },  {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }]
-  });
- 
-         
-         
-         
-         $("#goodFirmsvideo2").on('hidden.bs.modal', function (e) {
-    $("#goodFirmsvideo2 iframe").attr("src", $("#goodFirmsvideo2 iframe").attr("src"));
-});
-    $("#goodFirmsvideo1").on('hidden.bs.modal', function (e) {
-    $("#goodFirmsvideo1 iframe").attr("src", $("#goodFirmsvideo1 iframe").attr("src"));
-});
-		 $("#goodFirmsvideo3").on('hidden.bs.modal', function (e) {
-    $("#goodFirmsvideo3 iframe").attr("src", $("#goodFirmsvideo3 iframe").attr("src"));
-});
-    $('.tecr-logos').slick({
-        slidesToShow: 7,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3 
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4
-          
-      }
-    },
-    {
-      breakpoint: 1100,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 5
-         
-      }
-    }
- 
-  ]
+    // Close popup when close button is clicked
+    closeBtn.addEventListener('click', function() {
+        popup.style.display = 'none';
     });
-		 $('.IndustriesWeServe').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2 
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-          
-      }
-    },
-    {
-      breakpoint: 1100,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4
-         
-      }
-    }
-
-  ]
-    });
-         
-        
-         
-     $('.awards-logos').slick({
-        slidesToShow:5,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3 
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4
-          
-      }
-    },
-    {
-      breakpoint: 1100,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 5
-         
-      }
-    }
-
-  ]
-    }); 
-		 
-	$('.our-clients').slick({
-        slidesToShow:5,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3 
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4
-          
-      }
-    },
-    {
-      breakpoint: 1100,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 5
-         
-      }
-    }
-
-  ]
-    });  
-		 
-		 
-		 $('.our-customer').slick({
-        slidesToShow:3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3 
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-          
-      }
-    },
-    {
-      breakpoint: 1100,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-         
-      }
-    }
-
-  ]
-    });  
-         
-         
-         
-         
 });
+</script>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/tiny-slider.js"></script>
+<script src="js/glightbox.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/rellax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23581568-13');
     </script>
-<!--- Social Media Code for Google -->
-
-
-
-
-
-
-
 </body>
 </html>
