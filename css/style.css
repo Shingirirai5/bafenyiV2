@@ -1938,6 +1938,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
       border: 1px solid #1467b7;
       background: transparent;
       color: #1467b7; }
+    .btn.btn-tet {
+        background: #fabb1f !important;
+        border: 1px solid #fff !important;
+        width: 180px;
+        color: #fff !important; }
+        .btn.btn-tet span {
+          color: #fff !important; }
+        .btn.btn-tet:hover {
+          border: 1px solid #fabb1f;
+          background: transparent;
+          color: #fabb1f; }
+
+  
 
 .form-control {
   height: 45px;
